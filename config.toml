@@ -1,0 +1,56 @@
+baseURL = 'https://darkflame.dev'
+languageCode = 'en-us'
+title = 'Leon Bowie - Software Developer / Hacker'
+theme = "awesome-identity"
+
+# Content without language indicator will default to this language
+defaultContentLanguage = "en"
+# Make .Summary and .WordCount behave correctly for CJK languages
+hasCJKLanguage = true
+PygmentsCodeFences = true
+# Enable to turn relative URLs into absolute
+canonifyURLs = true
+# Do not convert the url/path to lowercase
+disablePathToLower = false
+# Enable Emoji emoticons support for page content
+enableEmoji = true
+# Update the `Lastmod` parameter for each page using the last git commit date for that content file
+enableGitInfo = true
+# Enable generation of `robots.txt` file
+enableRobotsTXT = true
+
+## Meta Configurations (HTTP Meta tags & OpenGraph)
+[params.meta]
+  description = "Student, Software Developer and Hacker."
+  keywords = "darkflame72, devops, backend, infrastructure, hacker, engineer, developer, robotics"
+  images = [
+    "/images/profile.jpg"
+  ]
+
+[params.profile]
+  portrait = "/images/portrait.png"
+  firstname = "Leon"
+  lastname = "Bowie"
+  title = "Student / Software Developer / Hacker"
+  bio = """Currently studying Computer Science and Mathematics at the [Victoria University of Wellington](https://wgtn.ac.nz).
+
+  Works as an Intern Analyst Developer at [FNZ](https://fnz.co.nz) and is the Chair of Tūhura Tech.
+
+  Loves working on Developer Experience and the Product Lifecycle from Development. Runs a homelab to practice and learn Sysadmin/Netops/Devops.
+  
+  Interested on working on challenging tasks and learning new technologies and tools if the need arises. """
+
+## Footer Configurations
+[params.footer]
+  copyright = "© 2021 Leon Bowie. [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)."
+  poweredBy = true
+
+## Contacts Configurations
+[params.contacts]
+  email = "leon@bowie-co.nz"
+  github = "darkflame72"
+
+## Actions Configurations
+[[params.actions]]
+  name = "Review My CV"
+  url = "https://raw.githubusercontent.com/Darkflame72/Website/main/static/cv.pdf"
